@@ -1,0 +1,6 @@
+framework module Pods_CCSKit_Tests {
+  umbrella header "Pods-CCSKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - CCSKit (0.1.0)
+
+DEPENDENCIES:
+  - CCSKit (from `../`)
+
+EXTERNAL SOURCES:
+  CCSKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCSKit: f7cd24f80127a84ba0b035835b7d3502bad2d0c9
+
+PODFILE CHECKSUM: 73230b50bcd55cae6c3a5a9752cfce52ab8505d3
+
+COCOAPODS: 1.11.3
