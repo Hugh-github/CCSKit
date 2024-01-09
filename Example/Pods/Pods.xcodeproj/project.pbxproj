@@ -42,10 +42,10 @@
 		10A068CA9408A1B4F6827E3C30CB808E /* CCSKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCSKit-dummy.m"; sourceTree = "<group>"; };
 		1DE2480700EAB29F3E5C4691E9EF9020 /* Pods-CCSKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCSKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1F252423E132983846F5B95CF56C8D92 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CCSKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		2A92A1984237098F2C614E1139226FF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		350C69490569F2628F76EEA375CA60DA /* CCSKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCSKit; path = CCSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A92A1984237098F2C614E1139226FF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		350C69490569F2628F76EEA375CA60DA /* CCSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEBBFF9D58CCFA1730A8DCEA3AE7980 /* Pods-CCSKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCSKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		60CD0F46713B6D68011196E786F9DB8E /* CCSKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCSKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		60CD0F46713B6D68011196E786F9DB8E /* CCSKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CCSKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		63678D44155C558CFF746D469E24D5B9 /* Pods-CCSKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCSKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		6C0CEFA5633F5AB1218374576F5912AF /* Pods-CCSKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCSKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -55,7 +55,7 @@
 		976738C92A572B11652C61158B617021 /* CCSKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCSKit-umbrella.h"; sourceTree = "<group>"; };
 		98D5BA1B4450761EC97E3E46F21FA21F /* Pods-CCSKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CCSKit_Tests"; path = Pods_CCSKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9979E7D494D23B5956E232CFBFE3F17E /* Pods-CCSKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCSKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6BA2D039E25C90BDC73799F27780A64 /* Pods-CCSKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCSKit_Example-dummy.m"; sourceTree = "<group>"; };
 		AA2CF5B7B11D9F79E1E1CC6287BB7309 /* Pods-CCSKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCSKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AFF89A2DA651BD22E9AFEDDA1B9D68D3 /* CCSKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCSKit.debug.xcconfig; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		C895D5B82BEC53A0E3FB2072D3B22BA1 /* Pods-CCSKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCSKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBE3B94E6D1122F9D4D6AAE07DAD6BC5 /* CCSKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCSKit-Info.plist"; sourceTree = "<group>"; };
 		CCD6D30EBFFE8EFAFDC61F0F9D872239 /* Pods-CCSKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCSKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EC9211C4C28041BAAE520B0CFFE21E58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EC9211C4C28041BAAE520B0CFFE21E58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F2CA92647720EC528387FC8B016E693F /* Pods-CCSKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCSKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F6879DB2C3B473D31BB8C52C1B347CB6 /* CCSKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCSKit.release.xcconfig; sourceTree = "<group>"; };
 		F72A50CE44F1BEBB404DE0F7D4C37579 /* CCSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCSKit-prefix.pch"; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		8898E2FA7073CA10117380DA1CF09FF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				350C69490569F2628F76EEA375CA60DA /* CCSKit */,
+				350C69490569F2628F76EEA375CA60DA /* CCSKit.framework */,
 				7EE8BE71B1DA10560362733FF82CE325 /* Pods-CCSKit_Example */,
 				98D5BA1B4450761EC97E3E46F21FA21F /* Pods-CCSKit_Tests */,
 			);
@@ -306,7 +306,7 @@
 			);
 			name = CCSKit;
 			productName = CCSKit;
-			productReference = 350C69490569F2628F76EEA375CA60DA /* CCSKit */;
+			productReference = 350C69490569F2628F76EEA375CA60DA /* CCSKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -422,7 +422,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CCSKit/CCSKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CCSKit/CCSKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CCSKit/CCSKit.modulemap";
 				PRODUCT_MODULE_NAME = CCSKit;
@@ -522,13 +522,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -653,7 +652,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -682,7 +681,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CCSKit/CCSKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CCSKit/CCSKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CCSKit/CCSKit.modulemap";
 				PRODUCT_MODULE_NAME = CCSKit;
