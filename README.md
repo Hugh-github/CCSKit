@@ -64,7 +64,7 @@ let sectionHeader = SupplementaryView(width: .fractionalWidth(1.0), height: .fra
 
 let sectionBackground = DecorationItem(elementKind: "SectionBackground")
 
-let firstSection = NestedGroupsSection(groupWidth: .fractionalWidth(1.0), groupHeight: .fractionalHeight(0.3), arrangedDirection: .vertical, numberOfItemsInInnerGroups: [1, 2, 2])
+let nestedGroupSection = NestedGroupsSection(groupWidth: .fractionalWidth(1.0), groupHeight: .fractionalHeight(0.3), arrangedDirection: .vertical, numberOfItemsInInnerGroups: [1, 2, 2])
     .decorationItems([sectionBackground])
     .boundarySupplementaryItems([sectionHeader])
 ```
