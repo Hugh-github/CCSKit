@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CCSKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CCSKit.'
+  s.summary          = 'CCSKit helps you easily create a Collectionview layout.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,9 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Hugh-github/CCSKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'CCSKit/Classes/**/*'
+  s.swift_versions = '4.0'
   
   # s.resource_bundles = {
   #   'CCSKit' => ['CCSKit/Assets/*.png']
