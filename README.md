@@ -28,8 +28,6 @@ Install the pods by running pod install.
 $ pod install
 ```
 
-### Swift Package Manager (추가 예정)
-
 ## Usage
 CCSKit is similar to `UICollectionViewCompositionalLayout`. Easily set properties using builder patterns. And it is easy to create frequently used grids, nested group sections.
 
