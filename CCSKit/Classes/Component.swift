@@ -44,18 +44,18 @@ public enum ComponentSize {
 
 internal extension ComponentSize {
     /// Resize using number of items.
-    func resize(to numberOfItemCount: Int) -> Self {
+    func resize(to numberOfItem: Int) -> Self {
         switch self {
         case .zero:
             return .fixed(0)
         case .fixed(let value):
-            return .fixed(value / CGFloat(numberOfItemCount))
+            return .fixed(value / CGFloat(numberOfItem))
         case .estimated(let value):
-            return .estimated(value / CGFloat(numberOfItemCount))
+            return .estimated(value / CGFloat(numberOfItem))
         case .fractionalWidth(_):
-            return .fractionalWidth(1 / CGFloat(numberOfItemCount))
+            return .fractionalWidth(1 / CGFloat(numberOfItem))
         case .fractionalHeight(_):
-            return .fractionalHeight(1 / CGFloat(numberOfItemCount))
+            return .fractionalHeight(1 / CGFloat(numberOfItem))
         }
     }
     
@@ -82,6 +82,7 @@ public enum ArrangedDirection {
 }
 
 public enum Offset {
+    case zero
     case absoulte(CGPoint)
     case fractional(CGPoint)
 }
