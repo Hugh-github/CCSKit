@@ -32,7 +32,9 @@ $ pod install
 The easiest way is to add the Dependencies within the Xcode project.
 
 In Xcode Project, File > Swift Packages > Add Package Dependency
-Add https://github.com/Hugh-github/CCSKit.git
+
+Add https://github.com/Hugh-github/CCSKit.git.
+
 Select Version Up to Next Major with 0.1.1
 
 ## Usage
