@@ -28,6 +28,13 @@ Install the pods by running pod install.
 $ pod install
 ```
 
+### Swift Package Manager
+The easiest way is to add the Dependencies within the Xcode project.
+
+In Xcode Project, File > Swift Packages > Add Package Dependency
+Add https://github.com/Hugh-github/CCSKit.git
+Select Version Up to Next Major with 0.1.1
+
 ## Usage
 CCSKit is similar to `UICollectionViewCompositionalLayout`. Easily set properties using builder patterns. And it is easy to create frequently used grids, nested group sections.
 
