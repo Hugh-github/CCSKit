@@ -51,24 +51,8 @@ extension Item {
         return self
     }
     
-    /**
-     Append supplementary items to be attached to the item.
-     
-     - Parameters:
-        - item: Supplementary items to be attached to the item.
-        - edge: The edges of the item an anchor is attached to.
-        - offset: The floating-point value of the anchor's offset from the item it's attached to.
-     */
-    final public func appendSupplementaryItem(_ item: SupplementaryView) -> Self {
-        self.supplementaryItems.append(item.createSupplementaryItem())
-        
-        return self
-    }
-}
-
-internal extension Item {
     /// Set the supplementary items attached to the item.
-    final func supplementaryItems(_ items: [NSCollectionLayoutSupplementaryItem]) -> Self {
+    final public func supplementaryItems(_ items: [NSCollectionLayoutSupplementaryItem]) -> Self {
         self.supplementaryItems = items
         
         return self

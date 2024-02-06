@@ -16,6 +16,11 @@ public class DecorationItem: Item {
         super.init(width: .zero, height: .zero)
     }
     
+    /**
+     Create the NSCollectionLayoutDecorationItem of the section.
+     
+     - Returns: NSCollectionLayoutDecorationItem
+     */
     internal func createDecorationItem() -> NSCollectionLayoutDecorationItem {
         let decorationItem = NSCollectionLayoutDecorationItem.background(elementKind: elementKind)
         decorationItem.contentInsets = super.contentInsets
