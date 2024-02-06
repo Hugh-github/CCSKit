@@ -65,7 +65,14 @@ class ViewController: UIViewController {
                 ) as? TextHeader else {
                     return nil
                 }
-                header.textLabel.text = "Title"
+                
+                if index.section == 0 {
+                    header.textLabel.text = "NestedGroup"
+                } else if index.section == 1 {
+                    header.textLabel.text = "Grid"
+                } else {
+                    header.textLabel.text = "Basic"
+                }
                 
                 return header
             }
@@ -87,10 +94,10 @@ class ViewController: UIViewController {
         
         let sectionBackground = DecorationItem(elementKind: "SectionBackground")
         
-        let newBanner = SupplementaryView(width: .fractionalWidth(0.3), height: .fractionalHeight(0.2), elementKind: "Banner")
-            .topLeadingItem(offset: .init(x: 7, y: 5))
+        let banner = SupplementaryView(width: .fractionalWidth(0.3), height: .fractionalHeight(0.2), elementKind: "Banner")
+            .topLeadingItem(offset: .absoulte(.init(x: 7, y: 5)))
         
-        let firstSection = NestedGroupsSection(groupWidth: .fractionalWidth(1.0), groupHeight: .fractionalHeight(0.3), arrangedDirection: .vertical, numberOfItemsInInnerGroups: [1, 2, 2])
+        let nestedGroupSection = NestedGroupsSection(groupWidth: .fractionalWidth(1.0), groupHeight: .fractionalHeight(0.3), arrangedDirection: .vertical, numberOfItemsInInnerGroups: [1, 2, 2])
             .innerGroupsFractionalSize([0.5, 0.25, 0.25])
             .interInnerGroupItemSpacing([0, 5, 5])
             .interInnerGroupSpacing(5)
@@ -100,29 +107,22 @@ class ViewController: UIViewController {
             .boundarySupplementaryItems([sectionHeader])
             .decorationItems([sectionBackground])
         
-        let secondSection = GridSection(rowWidth: .fractionalWidth(1.0), rowHeight: .fractionalHeight(0.1), numberOfItemInRow: 3)
+        let gridSection = GridSection(rowWidth: .fractionalWidth(1.0), rowHeight: .fractionalHeight(0.1), numberOfItemInRow: 3)
             .scrollingBehavior(.continuous)
-            .supplementaryItemsOfItem([newBanner])
+            .supplementaryItemsOfItem([banner])
             .interItemSpaicng(10)
             .interGroupSpacing(10)
-            .visibleItemInvalidationHandler { (items, offset, environment) in
-                items.forEach { item in
-                    let distanceFromCenter = abs((item.frame.midX - offset.x) - environment.container.contentSize.width / 2.0)
-                    let minScale: CGFloat = 0.7
-                    let maxScale: CGFloat = 1.1
-                    let scale = max(maxScale - (distanceFromCenter / environment.container.contentSize.width), minScale)
-                    item.transform = CGAffineTransform(scaleX: scale, y: scale)
-                }
-            }
+            .boundarySupplementaryItems([sectionHeader])
         
         let item = Item(width: .fixed(120), height: .fixed(30))
         let group = Group(width: .fixed(120), height: .fixed(150), subitems: [item], arrangedDirection: .vertical)
-        let thirdSection = Section(group: group)
+        let basicSection = Section(group: group)
+            .boundarySupplementaryItems([sectionHeader])
         
         let configuration = UICollectionViewCompositionalLayoutConfiguration()
-        configuration.interSectionSpacing = 10
+        configuration.interSectionSpacing = 30
         
-        let layout = UICollectionViewCompositionalLayout(sections: [firstSection, secondSection, thirdSection], configuration: configuration)
+        let layout = UICollectionViewCompositionalLayout(sections: [nestedGroupSection, gridSection, basicSection], configuration: configuration)
         layout.register(SectionBackgroundView.self, forDecorationViewOfKind: "SectionBackground")
         
         return layout
