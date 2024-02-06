@@ -1,7 +1,7 @@
 # CCSKit
 CCSKit is make to easy create **UICollectionViewCompostionalLayout**.
 
-![Static Badge](https://img.shields.io/badge/SPM-compatible-orange)(https://github.com/apple/swift-package-manager)
+![Static Badge](https://img.shields.io/badge/SPM-compatible-orange)
 [![Version](https://img.shields.io/cocoapods/v/CCSKit.svg?style=flat)](https://cocoapods.org/pods/CCSKit)
 [![License](https://img.shields.io/cocoapods/l/CCSKit.svg?style=flat)](https://cocoapods.org/pods/CCSKit)
 [![Platform](https://img.shields.io/cocoapods/p/CCSKit.svg?style=flat)](https://cocoapods.org/pods/CCSKit)
