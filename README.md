@@ -1,7 +1,7 @@
 # CCSKit
 CCSKit is make to easy create **UICollectionViewCompostionalLayout**.
 
-[![CI Status](https://img.shields.io/travis/Hugh-github/CCSKit.svg?style=flat)](https://travis-ci.org/Hugh-github/CCSKit)
+![Static Badge](https://img.shields.io/badge/SPM-compatible-orange)(https://github.com/apple/swift-package-manager)
 [![Version](https://img.shields.io/cocoapods/v/CCSKit.svg?style=flat)](https://cocoapods.org/pods/CCSKit)
 [![License](https://img.shields.io/cocoapods/l/CCSKit.svg?style=flat)](https://cocoapods.org/pods/CCSKit)
 [![Platform](https://img.shields.io/cocoapods/p/CCSKit.svg?style=flat)](https://cocoapods.org/pods/CCSKit)
@@ -31,11 +31,11 @@ $ pod install
 ### Swift Package Manager
 The easiest way is to add the Dependencies within the Xcode project.
 
-In Xcode Project, File > Swift Packages > Add Package Dependency
++ In Xcode Project, File > Swift Packages > Add Package Dependency
 
-Add https://github.com/Hugh-github/CCSKit.git.
++ Add `https://github.com/Hugh-github/CCSKit.git`
 
-Select Version Up to Next Major with 0.1.1
++ Select Version Up to Next Major with 0.1.1
 
 ## Usage
 CCSKit is similar to `UICollectionViewCompositionalLayout`. Easily set properties using builder patterns. And it is easy to create frequently used grids, nested group sections.
